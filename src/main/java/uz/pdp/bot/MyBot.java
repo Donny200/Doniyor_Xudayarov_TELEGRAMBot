@@ -172,12 +172,7 @@ public class MyBot extends TelegramLongPollingBot {
                     sendPhoto4.setReplyMarkup(markup4);
 
 
-
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
 
 
                     try {
@@ -301,7 +296,7 @@ public class MyBot extends TelegramLongPollingBot {
                     message3.setReplyMarkup(inlineKeyboardMarkup);
                     message3.setChatId(chatId1);
                     message3.setText("     аксессуары на любой автомобиль , любой марки в мире." +
-                                                "         Доставка тоже есть");
+                                                "         Доставка тоже есть по этому номеру +998979993007");
                     message3.setReplyMarkup(inlineKeyboardMarkup);
                     try {
                         execute(message3);
@@ -311,9 +306,6 @@ public class MyBot extends TelegramLongPollingBot {
                     String message2 = "Если вы передумали покупать тогда нажмите /menu \n" +
                             "/INSTA - нажмите и узнаете что там. ";
                     sendMessage(update.getMessage().getChatId().toString(), message2);
-
-
-
 
 
                 }
